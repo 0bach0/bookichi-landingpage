@@ -41,5 +41,13 @@ hr.light {
 }
 
 .btn-light{
-  background-color: #EBC944;
+  background-color: $highlight;
+}
+
+.highlight-color{
+  color: $highlight;
+}
+
+.highlight-color:hover{
+  color: $highlight; 
 }
